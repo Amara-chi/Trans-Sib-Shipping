@@ -38,11 +38,11 @@
             const navbar = document.getElementById('navbar');
             if (window.scrollY > 100) {
                 navbar.classList.add('scrolled');
-                logoImg.src = '/assests/Logo/Trans-Siberian Shipping LLC (White).png'; // dark/compact version
+                logoImg.src = './assests/Logo/Trans-Siberian Shipping LLC (White).png'; // dark/compact version
 
             } else {
                 navbar.classList.remove('scrolled');
-                logoImg.src = '/assests/Logo/Trans-Siberian Shipping LLC.png'; // original version
+                logoImg.src = './assests/Logo/Trans-Siberian Shipping LLC.png'; // original version
 
             }
         });
